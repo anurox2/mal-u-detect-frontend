@@ -113,20 +113,7 @@ export function MalForm() {
             color="secondary"
         />
     ) : ('Reset this form')
-
-    // var typo1 = ''
-    // var resultingImage = ''
-    // if(values.malicious === 'True'){
-    //     typo1 = (<Typo variant="h4" style={{color:'white', backgroundColor:'red'}}>RESULTS</Typo>)
-    //     resultingImage = (<img src={oooh} style={{width:'400px'}}/>)
-    // } else if(values.malicious === 'False'){
-    //     typo1 = (<Typo variant="h4" style={{color:'white', backgroundColor:'green'}}>RESULTS</Typo>)
-    //     resultingImage = (<img src={goodGif} style={{width:'400px'}}/>)
-    // }
-    // else {
-    //     // alert("WHY OH WHY")
-    // }
-    
+   
     const tableResponse = values.responseReturned ? (
         <div>
             {values.malicious=== 'True' ? (
